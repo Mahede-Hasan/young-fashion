@@ -7,7 +7,7 @@ const Nav1 = () => {
     return (
         <div>
             {/* nav-1 container  */}
-            <div className="nav1-container flex justify-between items-start px-14 py-4">
+            <div className="nav1-container flex justify-between items-start px-14 py-3">
 
                 {/* website logo */}
                 <div className="logo ">

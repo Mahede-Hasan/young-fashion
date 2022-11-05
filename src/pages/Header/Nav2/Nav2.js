@@ -3,9 +3,10 @@ import { NavLink } from "react-router-dom";
 
 const Nav2 = () => {
     return (
-        <div className='menu-container flex justify-between px-10 bg-slate-200 py-2'>
-            <div className="categories font-semibold">
-                <h1><NavLink>ALL CATEGORIES</NavLink></h1>
+        <div className='menu-container flex justify-between px-10 bg-slate-200 py-4'>
+            <div className="categories font-semibold flex">
+                <h1 className='pr-12'><NavLink>ALL CATEGORIES</NavLink></h1>
+                <h1><NavLink>HOT DEALS</NavLink></h1>
             </div>
             <div className="menus">
                 <ul className='flex font-semibold'>

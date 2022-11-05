@@ -1,0 +1,51 @@
+.advertise-half{
+    width: 100%;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.advertise-half:hover .advertise-img{
+    transform: scale(1.2);
+    transition: all 1s ease-in-out;
+}
+
+.advertise-half::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(#00000092, #00000085);
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.advertise-half:hover .advertise-img{
+    display: block;
+    background-image: linear-gradient(#000000, #000000d9);
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: 0.9;
+    transition: all 1s ease-in-out;
+}
+
+.advertise-button{
+    background-color: transparent;
+    border: 2px solid rgb(216, 216, 216);
+    color: rgb(214, 211, 211);
+    padding: 2px 12px;
+}
+
+.advertise-button:hover{
+    background-color: rgb(206, 206, 206);
+    border: 2px solid rgb(215, 215, 215);
+    color: rgb(43, 42, 42);
+    transition: all .5s ease-in-out;
+}

@@ -1,0 +1,41 @@
+.single-container {
+    width: 160px;
+    height: 160px;
+    position: relative !important;
+}
+
+.single-container h6 {
+    position: absolute !important;
+    top: 40%;
+    left: 60px;
+    color: white;
+    font-weight: 700;
+    display: none;
+}
+
+.overlay-box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: #000000cf;
+}
+
+.single-container:hover h6 {
+    display: block;
+}
+
+.single-container:hover .overlay-box {
+    opacity: 0.4;
+}
+
+.single-container img {
+    height: 100%;
+    display: block;
+    width: 100%;
+}
