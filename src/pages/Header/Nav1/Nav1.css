@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+.logo h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24px;
+}
+
+
+/* responsive for mobile */
+
+@media only screen and (max-width: 576px) {
+    .logo h1{
+        font-size: 18px;
+    }
+}
