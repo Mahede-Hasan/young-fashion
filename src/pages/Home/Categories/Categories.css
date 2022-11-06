@@ -2,6 +2,7 @@
     width: 160px;
     height: 160px;
     position: relative !important;
+    overflow: hidden;
 }
 
 .single-container h6 {
@@ -34,8 +35,10 @@
     opacity: 0.4;
 }
 
-.single-container img {
+.single-container:hover img {
     height: 100%;
     display: block;
     width: 100%;
+    transform: scale(1.1);
+    transition: .8s ease-in-out;
 }

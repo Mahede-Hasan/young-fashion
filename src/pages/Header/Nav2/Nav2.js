@@ -11,7 +11,7 @@ const Nav2 = () => {
             <div className="menus">
                 <ul className='flex font-semibold'>
                     <li><NavLink to='/home' className='menu pl-12'>HOME</NavLink></li>
-                    <li><NavLink className='menu pl-12'>SHOP</NavLink></li>
+                    <li><NavLink to='/shops' className='menu pl-12'>SHOP</NavLink></li>
                     <li><NavLink className='menu pl-12'>MEN</NavLink></li>
                     <li><NavLink className='menu pl-12'>WOMEN</NavLink></li>
                     <li><NavLink className='menu pl-12'>BLOG</NavLink></li>

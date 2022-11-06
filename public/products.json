@@ -1,0 +1,722 @@
+[
+    {
+      "sku": 1,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630517/Young_Fashion/products/basic1-500x750_qvhwvc.jpg",
+      "name": "Basic High-Neck Puff Jacket",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, jacket",
+      "price": 200,
+      "prePrice": 240,
+      "available": "In Stock"
+    },
+    {
+      "sku": 2,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630522/Young_Fashion/products/leggings1_wtbmqb.jpg",
+      "name": "Basic Relax Fit Leggings",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, pants",
+      "price": 30,
+      "prePrice": 40,
+      "available": "In Stock"
+    },
+    {
+      "sku": 3,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630517/Young_Fashion/products/pants1_rjinol.jpg",
+      "name": "Basic Colored Sweatpants With Elastic Hems",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, pants",
+      "price": 130,
+      "prePrice": 140,
+      "available": "In Stock"
+    },
+    {
+      "sku": 4,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630533/Young_Fashion/products/overshirt1_sjiflo.jpg",
+      "name": "Check Overshirt With Pocket Detail",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "men, outwear",
+      "price": 130,
+      "prePrice": 150,
+      "available": "In Stock"
+    },
+    {
+      "sku": 5,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630519/Young_Fashion/products/printedh1_yqeoep.jpg",
+      "name": "Rose Printed Hoodie",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, hoddies",
+      "price": 100,
+      "prePrice": 140,
+      "available": "In Stock"
+    },
+    {
+      "sku": 6,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630515/Young_Fashion/products/cup1_ql8enj.jpg",
+      "name": "World Wide Cup Print T-Shirt",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "men, t-shirt",
+      "price": 60,
+      "prePrice": 65,
+      "available": "In Stock"
+    },
+    {
+      "sku": 7,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630525/Young_Fashion/products/dressblack1-1_g2y5iy.jpg",
+      "name": "Sleeveless Ribbed Short Dress Black",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, shorts",
+      "price": 40,
+      "prePrice": 50,
+      "available": "In Stock"
+    },
+    {
+      "sku": 8,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630514/Young_Fashion/products/slogan1_nsp6rx.jpg",
+      "name": "Slogan Hoodie With Label Detail",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, hooddie",
+      "price": 120,
+      "prePrice": 125,
+      "available": "In Stock"
+    },
+    {
+      "sku": 9,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630518/Young_Fashion/products/nylon1_wmmsw6.jpg",
+      "name": "Short Nylon-Effect Puffer Jacket",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, jacket",
+      "price": 220,
+      "prePrice": 240,
+      "available": "In Stock"
+    },
+    {
+      "sku": 10,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630523/Young_Fashion/products/pocketmen1_xcmdfl.jpg",
+      "name": "Pouch Pocket Hoodie Orange",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "men, hooddie",
+      "price": 90,
+      "prePrice": 140,
+      "available": "In Stock"
+    },
+    {
+      "sku": 11,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630512/Young_Fashion/products/sleev1_kgtlox.jpg",
+      "name": "Sleeveless Ribbed Short Dress",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, shorts",
+      "price": 40,
+      "prePrice": 50,
+      "available": "In Stock"
+    },
+    {
+      "sku": 12,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630519/Young_Fashion/products/graphic1_r0mbnp.jpg",
+      "name": "Short Sleeve T-Shirt With Landscape Graphic",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, t-shirt",
+      "price": 10,
+      "prePrice": 15,
+      "available": "In Stock"
+    },
+    {
+      "sku": 13,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630507/Young_Fashion/products/knotted1_a4tev7.jpg",
+      "name": "Short Dress With Knotted Skirt",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, skirt",
+      "price": 20,
+      "prePrice": 24,
+      "available": "In Stock"
+    },
+    {
+      "sku": 14,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630520/Young_Fashion/products/trousers1_gqr2go.jpg",
+      "name": "Ripstop Cargo Trousers With Pockets",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "men, jacket",
+      "price": 20,
+      "prePrice": 22,
+      "available": "In Stock"
+    },
+    {
+      "sku": 15,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630527/Young_Fashion/products/wideleg1_evtrio.jpg",
+      "name": "Ripped Wide-Leg ’90s Jeans",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, jeans",
+      "price": 20,
+      "prePrice": 24,
+      "available": "In Stock"
+    },
+    {
+      "sku": 16,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630528/Young_Fashion/products/ripped1_ofz6tj.jpg",
+      "name": "Ripped Mom Jeans – Contains Recycled Cotton",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, jeans",
+      "price": 12,
+      "prePrice": 15,
+      "available": "In Stock"
+    },
+    {
+      "sku": 17,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630516/Young_Fashion/products/flared1_smofwn.jpg",
+      "name": "Ripped Flared Vintage Jeans",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, jeans",
+      "price": 13,
+      "prePrice": 16,
+      "available": "In Stock"
+    },
+    {
+      "sku": 18,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630523/Young_Fashion/products/ribbed1_zbraxv.jpg",
+      "name": "Ribbed V-Neck Cardigan With Rhinestone Detail",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, shorts",
+      "price": 20,
+      "prePrice": 22,
+      "available": "In Stock"
+    },
+    {
+      "sku": 19,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630506/Young_Fashion/products/buttons1_sojkqc.jpg",
+      "name": "Ribbed Cropped T-Shirt With Buttons",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, t-shirt",
+      "price": 8,
+      "prePrice": 10,
+      "available": "In Stock"
+    },
+    {
+      "sku": 20,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630517/Young_Fashion/products/shirt1_jj2n6z.jpg",
+      "name": "Relaxed Fit Plaid Flannel Shirt",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "men, shirt",
+      "price": 14,
+      "prePrice": 16,
+      "available": "In Stock"
+    },
+    {
+      "sku": 21,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630512/Young_Fashion/products/bomber1-1_hmhgug.jpg",
+      "name": "Quilted Bomber Jacket With Ribbed Trims",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "men, jacket",
+      "price": 40,
+      "prePrice": 50,
+      "available": "In Stock"
+    },
+    {
+      "sku": 22,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630517/Young_Fashion/products/pocket1_cb4ket.jpg",
+      "name": "Pouch Pocket Hoodie",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "men, hooddie",
+      "price": 14,
+      "prePrice": 18,
+      "available": "In Stock"
+    },
+    {
+      "sku": 23,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630519/Young_Fashion/products/plush1_gfzaq4.jpg",
+      "name": "Plush Bermuda Sweat Shorts",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "men, shorts",
+      "price": 8,
+      "prePrice": 9,
+      "available": "In Stock"
+    },
+    {
+      "sku": 24,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630529/Young_Fashion/products/starter1_ixxzu5.jpg",
+      "name": "Blue Starter Logo T-shirt",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, t-shirt",
+      "price": 6,
+      "prePrice": 8,
+      "available": "In Stock"
+    },
+    {
+      "sku": 25,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630525/Young_Fashion/products/vneck1_slmmnq.jpg",
+      "name": "Oversized V-neck T-shirt",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, t-shirt",
+      "price": 14,
+      "prePrice": 15,
+      "available": "In Stock"
+    },
+    {
+      "sku": 26,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630530/Young_Fashion/products/denim1_i80uc4.jpg",
+      "name": "Oversized Denim Jacket",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "men, jacket",
+      "price": 230,
+      "prePrice": 240,
+      "available": "In Stock"
+    },
+    {
+      "sku": 27,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630511/Young_Fashion/products/corduroy1_gqom5e.jpg",
+      "name": "Oversized Corduroy Shirt",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, shirt",
+      "price": 50,
+      "prePrice": 60,
+      "available": "In Stock"
+    },
+    {
+      "sku": 28,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630515/Young_Fashion/products/varsity1_yaxndn.jpg",
+      "name": "Oversize Varsity Hoodie",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, hoodie",
+      "price": 54,
+      "prePrice": 60,
+      "available": "In Stock"
+    },
+    {
+      "sku": 29,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630531/Young_Fashion/products/zipper1_rvihun.jpg",
+      "name": "Oversize Hoodie With Zipper",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "men, hooddie",
+      "price": 70,
+      "prePrice": 75,
+      "available": "In Stock"
+    },
+    {
+      "sku": 30,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630523/Young_Fashion/products/faux1-1_tozdcl.jpg",
+      "name": "Oversize Faux Leather Biker Jacket",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, jacket",
+      "price": 200,
+      "prePrice": 240,
+      "available": "In Stock"
+    },
+    {
+      "sku": 31,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630511/Young_Fashion/products/nylon1_tgom3g.jpg",
+      "name": "Nylon Puffer Gilet",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, jacket",
+      "price": 150,
+      "prePrice": 160,
+      "available": "In Stock"
+    },
+    {
+      "sku": 32,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630526/Young_Fashion/products/naruto1_qgjemo.jpg",
+      "name": "Naruto Itachi Print T-shirt",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "men, t-shirt",
+      "price": 7,
+      "prePrice": 8,
+      "available": "In Stock"
+    },
+    {
+      "sku": 33,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630514/Young_Fashion/products/colored1_jnbfhj.jpg",
+      "name": "Multicolored Open-Knit Crewneck Sweater",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, sweater",
+      "price": 30,
+      "prePrice": 40,
+      "available": "In Stock"
+    },
+    {
+      "sku": 34,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630520/Young_Fashion/products/loose1_rv0srl.jpg",
+      "name": "Loose-fit Jeans",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "men, jeans",
+      "price": 170,
+      "prePrice": 175,
+      "available": "In Stock"
+    },
+    {
+      "sku": 35,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630516/Young_Fashion/products/dress1_o7tiff.jpg",
+      "name": "Long Sleeve Sweatshirt Dress",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, sweater",
+      "price": 35,
+      "prePrice": 40,
+      "available": "In Stock"
+    },
+    {
+      "sku": 36,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630527/Young_Fashion/products/sleeve1_irfkj7.jpg",
+      "name": "Long Sleeve Graphic T-shirt",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, t-shirt",
+      "price": 12,
+      "prePrice": 14,
+      "available": "In Stock"
+    },
+    {
+      "sku": 37,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630508/Young_Fashion/products/zipped1_innbob.jpg",
+      "name": "Lightweight Zipped Bomber Jacket",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "men, jacket",
+      "price": 220,
+      "prePrice": 240,
+      "available": "In Stock"
+    },
+    {
+      "sku": 38,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630518/Young_Fashion/products/boots1_e1bqpg.jpg",
+      "name": "Knee-High Heeled Boots shoes",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, shoes",
+      "price": 80,
+      "prePrice": 88,
+      "available": "In Stock"
+    },
+    {
+      "sku": 39,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630510/Young_Fashion/products/stuff1_c5bois.jpg",
+      "name": "Hot Stuff Hoodie",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, hoodie",
+      "price": 90,
+      "prePrice": 100,
+      "available": "In Stock"
+    },
+    {
+      "sku": 40,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630524/Young_Fashion/products/rise1_e27fbc.jpg",
+      "name": "High-Rise Comfort Slim-Fit Straight-Fit Jeans",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, jeans",
+      "price": 140,
+      "prePrice": 150,
+      "available": "In Stock"
+    },
+    {
+      "sku": 41,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630524/Young_Fashion/products/fuzzy1_li9wku.jpg",
+      "name": "Fuzzy Button-Up Cardigan sweater",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, sweater",
+      "price": 45,
+      "prePrice": 48,
+      "available": "In Stock"
+    },
+    {
+      "sku": 42,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630521/Young_Fashion/products/flufy_xmd4g6.jpg",
+      "name": "Fluffy-knit Sweater",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, sweater",
+      "price": 40,
+      "prePrice": 50,
+      "available": "In Stock"
+    },
+    {
+      "sku": 43,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630520/Young_Fashion/products/blazer1_rm51mx.jpg",
+      "name": "Feminine-cut Blazer",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "men, blazer",
+      "price": 200,
+      "prePrice": 240,
+      "available": "In Stock"
+    },
+    {
+      "sku": 44,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630529/Young_Fashion/products/suede1_mykqpk.jpg",
+      "name": "Faux Suede Jacket With Pockets",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "men, jacket",
+      "price": 180,
+      "prePrice": 200,
+      "available": "In Stock"
+    },
+    {
+      "sku": 45,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630526/Young_Fashion/products/leather_iebbyf.jpg",
+      "name": "Faux Leather Overshirt With Pocket",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, shirt",
+      "price": 140,
+      "prePrice": 145,
+      "available": "In Stock"
+    },
+    {
+      "sku": 46,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630519/Young_Fashion/products/faux1_say8pl.jpg",
+      "name": "Faux Leather Blazer",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, blazer",
+      "price": 200,
+      "prePrice": 240,
+      "available": "In Stock"
+    },
+    {
+      "sku": 47,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630522/Young_Fashion/products/cutout_htvpjy.jpg",
+      "name": "Dress With Cut-Out and Ring Detail",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, shorts",
+      "price": 220,
+      "prePrice": 240,
+      "available": "In Stock"
+    },
+    {
+      "sku": 48,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630520/Young_Fashion/products/breasted_jvwbpm.jpg",
+      "name": "Double-Breasted Coat blazer",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, blazer",
+      "price": 245,
+      "prePrice": 265,
+      "available": "In Stock"
+    },
+    {
+      "sku": 49,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630507/Young_Fashion/products/cardigan1_pawr8n.jpg",
+      "name": "Daisy Jacquard Knit Cardigan sweater",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, sweater",
+      "price": 40,
+      "prePrice": 45,
+      "available": "In Stock"
+    },
+    {
+      "sku": 50,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630527/Young_Fashion/products/cropped1_tx19pa.jpg",
+      "name": "Cropped Short Sleeve T-shirt With Embroidered Detail",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, t-shirt",
+      "price": 6,
+      "prePrice": 7,
+      "available": "In Stock"
+    },
+    {
+      "sku": 51,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630526/Young_Fashion/products/bomber1_g73auh.jpg",
+      "name": "Cropped Satin Bomber Jacket",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, jacket",
+      "price": 210,
+      "prePrice": 240,
+      "available": "In Stock"
+    },
+    {
+      "sku": 52,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630520/Young_Fashion/products/linen1_rsqyti.jpg",
+      "name": "Cotton and Linen Basic Shirt",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, shirt",
+      "price": 40,
+      "prePrice": 42,
+      "available": "In Stock"
+    },
+    {
+      "sku": 53,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630530/Young_Fashion/products/bucket3_ybnbnn.jpg",
+      "name": "Corduroy Bucket Hat t-shirt",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "men, shirt",
+      "price": 12,
+      "prePrice": 14,
+      "available": "In Stock"
+    },
+    {
+      "sku": 54,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630510/Young_Fashion/products/carpenter1_qzqtyu.jpg",
+      "name": "Carpenter Jeans",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "men, jeans",
+      "price": 110,
+      "prePrice": 112,
+      "available": "In Stock"
+    },
+    {
+      "sku": 55,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630516/Young_Fashion/products/burger1_qqfgoi.jpg",
+      "name": "Burger King Flaming Hot Sweatshirt",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, sweater",
+      "price": 80,
+      "prePrice": 82,
+      "available": "In Stock"
+    },
+    {
+      "sku": 56,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630531/Young_Fashion/products/mountain1_pimeqr.jpg",
+      "name": "Brown Mountain Graphic Sweatshirt",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, sweater",
+      "price": 110,
+      "prePrice": 112,
+      "available": "In Stock"
+    },
+    {
+      "sku": 57,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630515/Young_Fashion/products/arizona1_uadwzz.jpg",
+      "name": "Brown Arizona Sweatshirt",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, sweater",
+      "price": 108,
+      "prePrice": 112,
+      "available": "In Stock"
+    },
+    {
+      "sku": 58,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630518/Young_Fashion/products/hoodie1_dalk0u.jpg",
+      "name": "Black Hoodie With Contrast Graphic",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "men, hooddie",
+      "price": 110,
+      "prePrice": 112,
+      "available": "In Stock"
+    },
+    {
+      "sku": 59,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630523/Young_Fashion/products/belted1_qc1q8u.jpg",
+      "name": "Belted Trench Coat",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, blazer",
+      "price": 240,
+      "prePrice": 260,
+      "available": "In Stock"
+    },
+    {
+      "sku": 60,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630507/Young_Fashion/products/chinos1_ncmskc.jpg",
+      "name": "Basic Slim Fit Chinos Trousers",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "men, trouser",
+      "price": 40,
+      "prePrice": 42,
+      "available": "In Stock"
+    },
+    {
+      "sku": 61,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630512/Young_Fashion/products/sweat1_fsxvih.jpg",
+      "name": "Basic Oversize Fleece Sweatshirt",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, sweater",
+      "price": 58,
+      "prePrice": 60,
+      "available": "In Stock"
+    },
+    {
+      "sku": 62,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630529/Young_Fashion/products/blue1_rpokxx.jpg",
+      "name": "Basic Mom Jeans Blue",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, jeans",
+      "price": 130,
+      "prePrice": 135,
+      "available": "In Stock"
+    },
+    {
+      "sku": 63,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630516/Young_Fashion/products/jacket1_xgxhjd.jpg",
+      "name": "Varsity Jacket With Patch Details",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, jacket",
+      "price": 110,
+      "prePrice": 112,
+      "available": "In Stock"
+    },
+    {
+      "sku": 64,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630513/Young_Fashion/products/tupac1_st5yca.jpg",
+      "name": "Tupac California Love T-Shirt",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, t-shirt",
+      "price": 14,
+      "prePrice": 15,
+      "available": "In Stock"
+    },
+    {
+      "sku": 65,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630531/Young_Fashion/products/mom1_xfihkr.jpg",
+      "name": "Basic Mom Jeans",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, jeans",
+      "price": 190,
+      "prePrice": 195,
+      "available": "In Stock"
+    },
+    {
+      "sku": 66,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630514/Young_Fashion/products/asym1_pb9aus.jpg",
+      "name": "Asymmetric Long Sleeve Top With High Neck shorts",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, shorts",
+      "price": 80,
+      "prePrice": 88,
+      "available": "In Stock"
+    },
+    {
+      "sku": 67,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630517/Young_Fashion/products/shoulder1_t54c8c.jpg",
+      "name": "Shoulder Bag With A Mock Croc Finish",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, bag",
+      "price": 180,
+      "prePrice": 200,
+      "available": "In Stock"
+    },
+    {
+      "sku": 68,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630521/Young_Fashion/products/lines1_igsxnx.jpg",
+      "name": "Tie-Dye Lines Sweatshirt",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, sweater",
+      "price": 111,
+      "prePrice": 112,
+      "available": "In Stock"
+    },
+    {
+      "sku": 69,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630521/Young_Fashion/products/groovy1_bfedgr.jpg",
+      "name": "The Rolling Stones Groovy T-Shirt",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, t-shirt",
+      "price": 40,
+      "prePrice": 42,
+      "available": "In Stock"
+    },
+    {
+      "sku": 70,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630527/Young_Fashion/products/sweater1_mgrhta.jpg",
+      "name": "Sweater With Chain Detail",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, sweater",
+      "price": 110,
+      "prePrice": 112,
+      "available": "In Stock"
+    },
+    {
+      "sku": 71,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630509/Young_Fashion/products/corset1_bdiizm.jpg",
+      "name": "Strappy Corset Top",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, top",
+      "price": 32,
+      "prePrice": 34,
+      "available": "In Stock"
+    },
+    {
+      "sku": 72,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630517/Young_Fashion/products/softbag1_ovl7ju.jpg",
+      "name": "Soft Shoulder Bag",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, bag",
+      "price": 110,
+      "prePrice": 112,
+      "available": "In Stock"
+    }
+  ]

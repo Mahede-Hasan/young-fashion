@@ -1,0 +1,52 @@
+[
+    {
+      "sku": 1,
+      "name": "Ripped Wide-Leg 90s Jeans",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, pants, jeans",
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630527/Young_Fashion/products/wideleg1_evtrio.jpg",
+      "price": 124,
+      "prePrice": 160,
+      "available": "In Stock"
+    },
+    {
+      "sku": 2,
+      "name": "Ripped Mom Jeans – Contains Recycled Cotton",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, pants, jeans",
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630528/Young_Fashion/products/ripped1_ofz6tj.jpg",
+      "price": 130,
+      "prePrice": 180,
+      "available": "In Stock"
+    },
+    {
+      "sku": 3,
+      "name": "Ripstop Cargo Trousers With Pockets",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "men, outwear",
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630529/Young_Fashion/products/suede1_mykqpk.jpg",
+      "price": 100,
+      "prePrice": 140,
+      "available": "In Stock"
+    },
+    {
+      "sku": 4,
+      "name": "Basic Relax Fit Leggings",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, pants",
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630522/Young_Fashion/products/leggings1_wtbmqb.jpg",
+      "price": 60,
+      "prePrice": 100,
+      "available": "In Stock"
+    },
+    {
+      "sku": 5,
+      "name": "Short Nylon-Effect Puffer Jacket",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Eveniet ea.",
+      "category": "women, jacket",
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630518/Young_Fashion/products/nylon1_wmmsw6.jpg",
+      "price": 124,
+      "prePrice": 160,
+      "available": "In Stock"
+    }
+  ]
