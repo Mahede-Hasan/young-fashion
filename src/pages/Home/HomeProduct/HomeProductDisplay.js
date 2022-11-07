@@ -19,9 +19,9 @@ const HomeProductDisplay = ({ product }) => {
             </div>
 
             {/* card content */}
-            <h3 className='text-md pt-1' > {name}</h3>
+            <h3 className='text-md pt-1 px-2' > {name}</h3>
 
-            <h4 className='py-1'>Reviews : <span className='text-[11px] text-orange-300'>
+            <h4 className='py-1 px-2'>Reviews : <span className='text-[11px] text-orange-300'>
                 {/* review icon from fontawesome */}
                 <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
                 <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
@@ -29,7 +29,7 @@ const HomeProductDisplay = ({ product }) => {
                 <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
                 <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
             </span></h4>
-            <div className='card-content flex font-semibold text-sm'>
+            <div className='card-content px-2 flex font-semibold text-sm'>
                 <p className='line-through pr-3 text-gray-400'>${prePrice}</p>
                 <p>${price}</p>
             </div>

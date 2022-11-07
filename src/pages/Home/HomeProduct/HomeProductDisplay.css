@@ -6,6 +6,10 @@
     cursor: pointer;
 }
 
+.product-home-container:hover{
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+
 .cart-img {
     height: 280px;
     width: 200px;

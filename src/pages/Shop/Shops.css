@@ -1,0 +1,29 @@
+.selected{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(2, 149, 154);
+}
+
+.pagination{
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-option{
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .shop-products-main-container{
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+
+    .shop-filter-container{
+        display: block;
+    }
+}
