@@ -5,7 +5,7 @@ import HomeProductDisplay from './HomeProductDisplay';
 
 const HomeProduct = () => {
     // fetch with useQuery
-    const { data: homeProduct, isLoading, error } = useQuery('productsHome', () => fetch('homeProducts.json').then(res => res.json()))
+    const { data: homeProduct, isLoading, error } = useQuery('productsHome', () => fetch('products.json').then(res => res.json()))
 
     if (isLoading) {
         return <Loading></Loading>
@@ -20,7 +20,7 @@ const HomeProduct = () => {
             {/* dynamically data showing */}
             <div className="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1">
                 {
-                    homeProduct.map(product => <HomeProductDisplay
+                    homeProduct.slice(20,25).map(product => <HomeProductDisplay
                         key={product.sku}
                         product={product}
                     ></HomeProductDisplay>)

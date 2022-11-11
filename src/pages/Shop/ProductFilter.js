@@ -51,97 +51,97 @@ const ProductFilter = () => {
                                     </div>
                                     <div class="flex items-center">
                                         <input
-                                            id="toy"
+                                            id="women"
                                             type="checkbox"
-                                            name="type[toy]"
+                                            name="type[women]"
                                             class="h-4 w-4 rounded border-gray-300 cursor-pointer"
                                         />
 
-                                        <label for="toy" class="ml-3 text-sm font-medium cursor-pointer">
+                                        <label for="women" class="ml-3 text-sm font-medium cursor-pointer">
                                             Women
                                         </label>
                                     </div>
                                     <div class="flex items-center">
                                         <input
-                                            id="toy"
+                                            id="jacket"
                                             type="checkbox"
-                                            name="type[toy]"
+                                            name="type[jacket]"
                                             class="h-4 w-4 rounded border-gray-300 cursor-pointer"
                                         />
 
-                                        <label for="toy" class="ml-3 text-sm font-medium cursor-pointer">
+                                        <label for="jacket" class="ml-3 text-sm font-medium cursor-pointer">
                                             Jacket
                                         </label>
                                     </div>
                                     <div class="flex items-center">
                                         <input
-                                            id="toy"
+                                            id="hoodie"
                                             type="checkbox"
-                                            name="type[toy]"
+                                            name="type[hoodie]"
                                             class="h-4 w-4 rounded border-gray-300 cursor-pointer"
                                         />
 
-                                        <label for="toy" class="ml-3 text-sm font-medium cursor-pointer">
+                                        <label for="hoodie" class="ml-3 text-sm font-medium cursor-pointer">
                                             Hoodie
                                         </label>
                                     </div>
                                     <div class="flex items-center">
                                         <input
-                                            id="toy"
+                                            id="sweater"
                                             type="checkbox"
-                                            name="type[toy]"
+                                            name="type[sweater]"
                                             class="h-4 w-4 rounded border-gray-300 cursor-pointer"
                                         />
 
-                                        <label for="toy" class="ml-3 text-sm font-medium cursor-pointer">
+                                        <label for="sweater" class="ml-3 text-sm font-medium cursor-pointer">
                                             Sweater
                                         </label>
                                     </div>
                                     <div class="flex items-center">
                                         <input
-                                            id="toy"
+                                            id="pants"
                                             type="checkbox"
-                                            name="type[toy]"
+                                            name="type[pants]"
                                             class="h-4 w-4 rounded border-gray-300 cursor-pointer"
                                         />
 
-                                        <label for="toy" class="ml-3 text-sm font-medium cursor-pointer">
+                                        <label for="pants" class="ml-3 text-sm font-medium cursor-pointer">
                                             Pants
                                         </label>
                                     </div>
                                     <div class="flex items-center">
                                         <input
-                                            id="toy"
+                                            id="t-shirt"
                                             type="checkbox"
-                                            name="type[toy]"
+                                            name="type[t-shirt]"
                                             class="h-4 w-4 rounded border-gray-300 cursor-pointer"
                                         />
 
-                                        <label for="toy" class="ml-3 text-sm font-medium cursor-pointer">
+                                        <label for="t-shirt" class="ml-3 text-sm font-medium cursor-pointer">
                                             T-shirt
                                         </label>
                                     </div>
                                     <div class="flex items-center">
                                         <input
-                                            id="toy"
+                                            id="shoes"
                                             type="checkbox"
-                                            name="type[toy]"
+                                            name="type[shoes]"
                                             class="h-4 w-4 rounded border-gray-300 cursor-pointer"
                                         />
 
-                                        <label for="toy" class="ml-3 text-sm font-medium cursor-pointer">
+                                        <label for="shoes" class="ml-3 text-sm font-medium cursor-pointer">
                                             Shoes
                                         </label>
                                     </div>
                                     <div class="flex items-center">
                                         <input
-                                            id="toy"
+                                            id="bag"
                                             type="checkbox"
-                                            name="type[toy]"
+                                            name="type[bag]"
                                             class="h-4 w-4 rounded border-gray-300 cursor-pointer"
                                         />
 
-                                        <label for="toy" class="ml-3 text-sm font-medium cursor-pointer">
+                                        <label for="bag" class="ml-3 text-sm font-medium cursor-pointer">
                                             Bag
                                         </label>
                                     </div>
@@ -158,9 +158,9 @@ const ProductFilter = () => {
                             <div>
                                 <fieldset>
                                     <legend
-                                        class="block w-full bg-gray-50 px-5 py-3 text-xs font-medium"
+                                        class="block w-full bg-gray-50 px-5 py-3 text-md font-medium"
                                     >
-                                        Age
+                                        Price
                                     </legend>
 
                                     <div class="space-y-2 px-5 py-6">
@@ -169,11 +169,11 @@ const ProductFilter = () => {
                                                 id="3+"
                                                 type="checkbox"
                                                 name="age[3+]"
-                                                class="h-5 w-5 rounded border-gray-300"
+                                                class="h-4 w-4 rounded border-gray-300"
                                             />
 
                                             <label for="3+" class="ml-3 text-sm font-medium">
-                                                3+
+                                                $ 0 - $ 50
                                             </label>
                                         </div>
 
@@ -182,11 +182,11 @@ const ProductFilter = () => {
                                                 id="8+"
                                                 type="checkbox"
                                                 name="age[8+]"
-                                                class="h-5 w-5 rounded border-gray-300"
+                                                class="h-4 w-4 rounded border-gray-300"
                                             />
 
                                             <label for="8+" class="ml-3 text-sm font-medium">
-                                                8+
+                                                $ 50 - $ 100
                                             </label>
                                         </div>
 
@@ -195,11 +195,11 @@ const ProductFilter = () => {
                                                 id="12+"
                                                 type="checkbox"
                                                 name="age[12+]"
-                                                class="h-5 w-5 rounded border-gray-300"
+                                                class="h-4 w-4 rounded border-gray-300"
                                             />
 
                                             <label for="12+" class="ml-3 text-sm font-medium">
-                                                12+
+                                            $ 100 - $ 200
                                             </label>
                                         </div>
 
@@ -208,11 +208,11 @@ const ProductFilter = () => {
                                                 id="16+"
                                                 type="checkbox"
                                                 name="age[16+]"
-                                                class="h-5 w-5 rounded border-gray-300"
+                                                class="h-4 w-4 rounded border-gray-300"
                                             />
 
                                             <label for="16+" class="ml-3 text-sm font-medium">
-                                                16+
+                                            $ 200 - $ 400
                                             </label>
                                         </div>
 
@@ -221,7 +221,7 @@ const ProductFilter = () => {
                                                 type="button"
                                                 class="text-xs text-gray-500 underline"
                                             >
-                                                Reset Age
+                                                Reset Price
                                             </button>
                                         </div>
                                     </div>
