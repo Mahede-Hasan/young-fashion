@@ -2,13 +2,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping, faHeart, faUser } from '@fortawesome/free-solid-svg-icons'
 import React, { useState } from 'react';
 import './Nav1.css';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useContext } from 'react';
 import { ProductDetailContext } from '../../Shared/Context';
 
 const Nav1 = ({setSearch}) => {
-    const [cartProduct] = useContext(ProductDetailContext)
-    
+    const [cartProduct,] = useContext(ProductDetailContext)
     const [searchText, setSearchText] = useState('')
     const navigate = useNavigate()
     
@@ -25,7 +24,7 @@ const Nav1 = ({setSearch}) => {
             })
     }
     return (
-        <div>
+        <div className='bg-white'>
             {/* nav-1 container  */}
             <div className="nav1-container flex justify-between items-start px-14 py-3">
 

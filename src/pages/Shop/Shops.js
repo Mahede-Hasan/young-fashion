@@ -23,7 +23,7 @@ const Shops = ({setCartDetail}) => {
 
                 {/* products container */}
                 <div>
-                    <img className='shop-banner px-4' src={shopBanner} alt="" />
+                    {/* <img className='shop-banner px-4' src={shopBanner} alt="" /> */}
                     {loading && <Loading />}
                     <div className="shop-products-container grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1">
                         {

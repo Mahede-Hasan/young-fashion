@@ -1,5 +1,6 @@
 [
     {
+      "quantity": 0,
       "sku": 1,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630517/Young_Fashion/products/basic1-500x750_qvhwvc.jpg",
       "name": "Basic High-Neck Puff Jacket",
@@ -10,6 +11,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 2,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630522/Young_Fashion/products/leggings1_wtbmqb.jpg",
       "name": "Basic Relax Fit Leggings",
@@ -20,6 +22,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 3,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630517/Young_Fashion/products/pants1_rjinol.jpg",
       "name": "Basic Colored Sweatpants With Elastic Hems",
@@ -30,6 +33,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 4,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630533/Young_Fashion/products/overshirt1_sjiflo.jpg",
       "name": "Check Overshirt With Pocket Detail",
@@ -40,6 +44,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 5,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630519/Young_Fashion/products/printedh1_yqeoep.jpg",
       "name": "Rose Printed Hoodie",
@@ -50,6 +55,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 6,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630515/Young_Fashion/products/cup1_ql8enj.jpg",
       "name": "World Wide Cup Print T-Shirt",
@@ -60,6 +66,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 7,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630525/Young_Fashion/products/dressblack1-1_g2y5iy.jpg",
       "name": "Sleeveless Ribbed Short Dress Black",
@@ -70,6 +77,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 8,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630514/Young_Fashion/products/slogan1_nsp6rx.jpg",
       "name": "Slogan Hoodie With Label Detail",
@@ -80,6 +88,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 9,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630518/Young_Fashion/products/nylon1_wmmsw6.jpg",
       "name": "Short Nylon-Effect Puffer Jacket",
@@ -90,6 +99,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 10,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630523/Young_Fashion/products/pocketmen1_xcmdfl.jpg",
       "name": "Pouch Pocket Hoodie Orange",
@@ -100,6 +110,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 11,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630512/Young_Fashion/products/sleev1_kgtlox.jpg",
       "name": "Sleeveless Ribbed Short Dress",
@@ -110,6 +121,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 12,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630519/Young_Fashion/products/graphic1_r0mbnp.jpg",
       "name": "Short Sleeve T-Shirt With Landscape Graphic",
@@ -120,6 +132,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 13,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630507/Young_Fashion/products/knotted1_a4tev7.jpg",
       "name": "Short Dress With Knotted Skirt",
@@ -130,6 +143,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 14,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630520/Young_Fashion/products/trousers1_gqr2go.jpg",
       "name": "Ripstop Cargo Trousers With Pockets",
@@ -140,6 +154,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 15,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630527/Young_Fashion/products/wideleg1_evtrio.jpg",
       "name": "Ripped Wide-Leg ’90s Jeans",
@@ -150,6 +165,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 16,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630528/Young_Fashion/products/ripped1_ofz6tj.jpg",
       "name": "Ripped Mom Jeans – Contains Recycled Cotton",
@@ -160,6 +176,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 17,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630516/Young_Fashion/products/flared1_smofwn.jpg",
       "name": "Ripped Flared Vintage Jeans",
@@ -170,6 +187,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 18,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630523/Young_Fashion/products/ribbed1_zbraxv.jpg",
       "name": "Ribbed V-Neck Cardigan With Rhinestone Detail",
@@ -180,6 +198,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 19,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630506/Young_Fashion/products/buttons1_sojkqc.jpg",
       "name": "Ribbed Cropped T-Shirt With Buttons",
@@ -190,6 +209,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 20,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630517/Young_Fashion/products/shirt1_jj2n6z.jpg",
       "name": "Relaxed Fit Plaid Flannel Shirt",
@@ -200,6 +220,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 21,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630512/Young_Fashion/products/bomber1-1_hmhgug.jpg",
       "name": "Quilted Bomber Jacket With Ribbed Trims",
@@ -210,6 +231,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 22,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630517/Young_Fashion/products/pocket1_cb4ket.jpg",
       "name": "Pouch Pocket Hoodie",
@@ -220,6 +242,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 23,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630519/Young_Fashion/products/plush1_gfzaq4.jpg",
       "name": "Plush Bermuda Sweat Shorts",
@@ -230,6 +253,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 24,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630529/Young_Fashion/products/starter1_ixxzu5.jpg",
       "name": "Blue Starter Logo T-shirt",
@@ -240,6 +264,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 25,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630525/Young_Fashion/products/vneck1_slmmnq.jpg",
       "name": "Oversized V-neck T-shirt",
@@ -250,6 +275,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 26,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630530/Young_Fashion/products/denim1_i80uc4.jpg",
       "name": "Oversized Denim Jacket",
@@ -260,6 +286,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 27,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630511/Young_Fashion/products/corduroy1_gqom5e.jpg",
       "name": "Oversized Corduroy Shirt",
@@ -270,6 +297,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 28,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630515/Young_Fashion/products/varsity1_yaxndn.jpg",
       "name": "Oversize Varsity Hoodie",
@@ -280,6 +308,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 29,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630531/Young_Fashion/products/zipper1_rvihun.jpg",
       "name": "Oversize Hoodie With Zipper",
@@ -290,6 +319,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 30,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630523/Young_Fashion/products/faux1-1_tozdcl.jpg",
       "name": "Oversize Faux Leather Biker Jacket",
@@ -300,6 +330,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 31,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630511/Young_Fashion/products/nylon1_tgom3g.jpg",
       "name": "Nylon Puffer Gilet",
@@ -310,6 +341,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 32,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630526/Young_Fashion/products/naruto1_qgjemo.jpg",
       "name": "Naruto Itachi Print T-shirt",
@@ -320,6 +352,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 33,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630514/Young_Fashion/products/colored1_jnbfhj.jpg",
       "name": "Multicolored Open-Knit Crewneck Sweater",
@@ -330,6 +363,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 34,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630520/Young_Fashion/products/loose1_rv0srl.jpg",
       "name": "Loose-fit Jeans",
@@ -340,6 +374,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 35,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630516/Young_Fashion/products/dress1_o7tiff.jpg",
       "name": "Long Sleeve Sweatshirt Dress",
@@ -350,6 +385,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 36,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630527/Young_Fashion/products/sleeve1_irfkj7.jpg",
       "name": "Long Sleeve Graphic T-shirt",
@@ -360,6 +396,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 37,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630508/Young_Fashion/products/zipped1_innbob.jpg",
       "name": "Lightweight Zipped Bomber Jacket",
@@ -370,6 +407,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 38,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630518/Young_Fashion/products/boots1_e1bqpg.jpg",
       "name": "Knee-High Heeled Boots shoes",
@@ -380,6 +418,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 39,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630510/Young_Fashion/products/stuff1_c5bois.jpg",
       "name": "Hot Stuff Hoodie",
@@ -390,6 +429,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 40,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630524/Young_Fashion/products/rise1_e27fbc.jpg",
       "name": "High-Rise Comfort Slim-Fit Straight-Fit Jeans",
@@ -400,6 +440,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 41,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630524/Young_Fashion/products/fuzzy1_li9wku.jpg",
       "name": "Fuzzy Button-Up Cardigan sweater",
@@ -410,6 +451,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 42,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630521/Young_Fashion/products/flufy_xmd4g6.jpg",
       "name": "Fluffy-knit Sweater",
@@ -420,6 +462,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 43,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630520/Young_Fashion/products/blazer1_rm51mx.jpg",
       "name": "Feminine-cut Blazer",
@@ -430,6 +473,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 44,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630529/Young_Fashion/products/suede1_mykqpk.jpg",
       "name": "Faux Suede Jacket With Pockets",
@@ -440,6 +484,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 45,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630526/Young_Fashion/products/leather_iebbyf.jpg",
       "name": "Faux Leather Overshirt With Pocket",
@@ -450,6 +495,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 46,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630519/Young_Fashion/products/faux1_say8pl.jpg",
       "name": "Faux Leather Blazer",
@@ -460,6 +506,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 47,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630522/Young_Fashion/products/cutout_htvpjy.jpg",
       "name": "Dress With Cut-Out and Ring Detail",
@@ -470,6 +517,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 48,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630520/Young_Fashion/products/breasted_jvwbpm.jpg",
       "name": "Double-Breasted Coat blazer",
@@ -480,6 +528,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 49,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630507/Young_Fashion/products/cardigan1_pawr8n.jpg",
       "name": "Daisy Jacquard Knit Cardigan sweater",
@@ -490,6 +539,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 50,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630527/Young_Fashion/products/cropped1_tx19pa.jpg",
       "name": "Cropped Short Sleeve T-shirt With Embroidered Detail",
@@ -500,6 +550,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 51,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630526/Young_Fashion/products/bomber1_g73auh.jpg",
       "name": "Cropped Satin Bomber Jacket",
@@ -510,6 +561,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 52,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630520/Young_Fashion/products/linen1_rsqyti.jpg",
       "name": "Cotton and Linen Basic Shirt",
@@ -520,6 +572,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 53,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630530/Young_Fashion/products/bucket3_ybnbnn.jpg",
       "name": "Corduroy Bucket Hat t-shirt",
@@ -530,6 +583,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 54,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630510/Young_Fashion/products/carpenter1_qzqtyu.jpg",
       "name": "Carpenter Jeans",
@@ -540,6 +594,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 55,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630516/Young_Fashion/products/burger1_qqfgoi.jpg",
       "name": "Burger King Flaming Hot Sweatshirt",
@@ -550,6 +605,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 56,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630531/Young_Fashion/products/mountain1_pimeqr.jpg",
       "name": "Brown Mountain Graphic Sweatshirt",
@@ -560,6 +616,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 57,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630515/Young_Fashion/products/arizona1_uadwzz.jpg",
       "name": "Brown Arizona Sweatshirt",
@@ -570,6 +627,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 58,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630518/Young_Fashion/products/hoodie1_dalk0u.jpg",
       "name": "Black Hoodie With Contrast Graphic",
@@ -580,6 +638,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 59,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630523/Young_Fashion/products/belted1_qc1q8u.jpg",
       "name": "Belted Trench Coat",
@@ -590,6 +649,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 60,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630507/Young_Fashion/products/chinos1_ncmskc.jpg",
       "name": "Basic Slim Fit Chinos Trousers",
@@ -600,6 +660,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 61,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630512/Young_Fashion/products/sweat1_fsxvih.jpg",
       "name": "Basic Oversize Fleece Sweatshirt",
@@ -610,6 +671,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 62,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630529/Young_Fashion/products/blue1_rpokxx.jpg",
       "name": "Basic Mom Jeans Blue",
@@ -620,6 +682,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 63,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630516/Young_Fashion/products/jacket1_xgxhjd.jpg",
       "name": "Varsity Jacket With Patch Details",
@@ -630,6 +693,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 64,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630513/Young_Fashion/products/tupac1_st5yca.jpg",
       "name": "Tupac California Love T-Shirt",
@@ -640,6 +704,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 65,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630531/Young_Fashion/products/mom1_xfihkr.jpg",
       "name": "Basic Mom Jeans",
@@ -650,6 +715,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 66,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630514/Young_Fashion/products/asym1_pb9aus.jpg",
       "name": "Asymmetric Long Sleeve Top With High Neck shorts",
@@ -660,6 +726,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 67,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630517/Young_Fashion/products/shoulder1_t54c8c.jpg",
       "name": "Shoulder Bag With A Mock Croc Finish",
@@ -670,6 +737,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 68,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630521/Young_Fashion/products/lines1_igsxnx.jpg",
       "name": "Tie-Dye Lines Sweatshirt",
@@ -680,6 +748,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 69,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630521/Young_Fashion/products/groovy1_bfedgr.jpg",
       "name": "The Rolling Stones Groovy T-Shirt",
@@ -690,6 +759,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 70,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630527/Young_Fashion/products/sweater1_mgrhta.jpg",
       "name": "Sweater With Chain Detail",
@@ -700,6 +770,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 71,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630509/Young_Fashion/products/corset1_bdiizm.jpg",
       "name": "Strappy Corset Top",
@@ -710,6 +781,7 @@
       "available": "In Stock"
     },
     {
+      "quantity": 0,
       "sku": 72,
       "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667630517/Young_Fashion/products/softbag1_ovl7ju.jpg",
       "name": "Soft Shoulder Bag",

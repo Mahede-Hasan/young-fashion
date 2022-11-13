@@ -5,7 +5,7 @@ import Nav2 from './Nav2/Nav2';
 
 const Header = ({setSearch}) => {
     return (
-        <div>
+        <div className='sticky z-10 top-0 w-full '>
             <Nav1 setSearch={setSearch}></Nav1>
             <Nav2></Nav2>
         </div>
