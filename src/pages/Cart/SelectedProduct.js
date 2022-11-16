@@ -6,8 +6,8 @@ import { useContext } from 'react';
 import { ProductDetailContext } from '../Shared/Context';
 
 const SelectedProduct = ({ singleCart }) => {
-    const [cartProduct, setCartProduct] = useContext(ProductDetailContext)
-    const { name, img, price, _id } = singleCart;
+    const {cartProduct, setCartProduct} = useContext(ProductDetailContext)
+    const { name, img, price, _id } = singleCart || {};
     const [count, setCount] = useState(1)
 
     // remove cart

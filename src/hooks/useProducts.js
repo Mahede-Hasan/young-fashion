@@ -1,12 +1,14 @@
+import { useContext } from "react"
 import { useEffect } from "react"
 import { useState } from "react"
+import { ProductDetailContext } from "../pages/Shared/Context"
 
 const useProducts =()=>{
     const [pageCount, setPageCount] = useState(0)
     const [page, setPage] = useState(0)
     const [size, setSize] = useState(12)
-    const [products, setProducts] = useState([])
     const [loading, setLoading] = useState(true);
+    const {products, setProducts} = useContext(ProductDetailContext)
 
     useEffect(() => {
         fetch(`http://localhost:5000/products?page=${page}&size=${size}`)
@@ -14,8 +16,9 @@ const useProducts =()=>{
             .then(data => {
                 setLoading(false)
                 setProducts(data)
+                // console.log(data)
             })
-    }, [size, page])
+    }, [size, pageCount, page])
 
     useEffect(() => {
         fetch('products.json')
@@ -25,8 +28,8 @@ const useProducts =()=>{
                 const pages = Math.ceil(count / size);
                 setPageCount(pages)
             })
-    }, [size])
-    return [products, setProducts, loading, pageCount, page, setPage, setSize]
+    }, [size,pageCount, page])
+    return [ loading, pageCount, page, setPage, setSize]
 }
 
 export default useProducts;

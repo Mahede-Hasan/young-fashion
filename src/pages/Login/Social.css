@@ -1,0 +1,10 @@
+@media only screen and (max-width: 510px) {
+    .social-container{
+        display: block;
+    }
+
+    .social-container button{
+        width: 250px;
+        padding-left: 80px;
+    }
+}

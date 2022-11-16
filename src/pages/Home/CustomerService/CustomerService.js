@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCreditCard, faHeadset, faThumbsUp, faTruckFast } from '@fortawesome/free-solid-svg-icons'
-
 import React from 'react';
 
 const CustomerService = () => {

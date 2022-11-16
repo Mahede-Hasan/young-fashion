@@ -1,0 +1,177 @@
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+}
+
+/* .menus {
+    padding-top: 6px;
+} */
+
+
+/*----------------Responsive nav style-------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu-icon,
+.menu-icon-close {
+    width: 20px;
+    height: 20px;
+    color: rgb(26, 3, 3);
+}
+
+.nav-icon {
+    cursor: pointer;
+    visibility: hidden;
+    position: absolute;
+    top: 65px;
+    right: 30px;
+    opacity: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    .menu-container {
+        width: 100%;
+        z-index: 10;
+        overflow-x: hidden;
+    }
+
+    .nav-icon {
+        visibility: visible;
+        opacity: 1;
+        padding-left: 2px;
+        padding-right: 2px;
+        transform: rotate(180deg);
+        transition: all 0.5s ease-in-out;
+    }
+
+    .menus ul {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(3, 189, 189);
+        transition: 0.5s;
+        transform: translateY(-100vh);
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    .menus .responsive_nav {
+        transform: none;
+    }
+
+    .menus ul li .menu {
+        line-height: 50px;
+    }
+
+    .menu {
+        color: white;
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+    ul .nav-close {
+        position: absolute;
+        top: 12px;
+        right: 20px;
+    }
+
+    .item:hover{
+        background-color: none !important;
+
+    }
+
+}
+
+
+/* -------------------best deal text style----------------- */
+.deal-text{
+    animation: Color 4s linear infinite;
+    -webkit-animation: Color 4s ease-in-out infinite;
+}
+@keyframes Color{
+    0%{
+      color:#A0D468;
+    }
+    
+    20%{
+      color:#4FC1E9;
+    }
+    
+    40%{
+      color:#FFCE54;
+    }
+    
+    60%{
+      color:#FC6E51;
+    }
+    
+    80%{
+      color:#ED5565;
+    }
+    
+    100%{
+      color:#AC92EC;
+    }
+  }
+  
+  @-moz-keyframes Color{
+    0%{
+      color:#A0D468;
+    }
+    
+    20%{
+      color:#4FC1E9;
+    }
+    
+    40%{
+      color:#FFCE54;
+    }
+    
+    60%{
+      color:#FC6E51;
+    }
+    
+    80%{
+      color:#ED5565;
+    }
+    
+    100%{
+      color:#AC92EC;
+    }
+  }
+  
+  @-webkit-keyframes Color{
+    0%{
+      color:#A0D468;
+    }
+    
+    20%{
+      color:#4FC1E9;
+    }
+    
+    40%{
+      color:#FFCE54;
+    }
+    
+    60%{
+      color:#FC6E51;
+    }
+    
+    80%{
+      color:#ED5565;
+    }
+    
+    100%{
+      color:#AC92EC;
+    }
+  }
+  

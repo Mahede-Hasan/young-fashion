@@ -1,16 +1,16 @@
 import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
 import ProductFilter from './ProductFilter';
 import Shop from './Shop';
 import './Shops.css';
-import { useNavigate } from 'react-router-dom';
 import Loading from '../Shared/Loading';
 import useProducts from '../../hooks/useProducts';
 import shopBanner from '../../images/banner/shop-banner.jpg'
+import { useContext } from 'react';
+import { ProductDetailContext } from '../Shared/Context';
 
-const Shops = ({setCartDetail}) => {
-    const [products, setProducts, loading, pageCount, page, setPage, setSize] = useProducts()
+const Shops = () => {
+    const {products,setCartDetail} = useContext(ProductDetailContext)
+    const [ loading, pageCount, page, setPage, setSize] = useProducts()
 
     return (
         <div className='home-product-container my-10 lg:px-10 md:px-4'>

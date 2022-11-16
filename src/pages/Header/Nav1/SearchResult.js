@@ -1,20 +1,14 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping, faHeart, faSearch, faStar } from '@fortawesome/free-solid-svg-icons'
 import { useContext } from 'react';
-import useProducts from '../../../hooks/useProducts';
 import { ProductDetailContext } from '../../Shared/Context';
 
 const SearchResult = ({searchResult}) => {
     const {name, price, prePrice, img, _id} = searchResult;
-    const [products] = useProducts()
-    const [cartProduct, setCartProduct] = useContext(ProductDetailContext)
-    
-    const handleAddToCart = id => {
-        const rest = products.find(product => product._id === id)
-        setCartProduct([...cartProduct, rest])
-    }
+    const {handleAddToCart} = useContext(ProductDetailContext)
+
     return (
         <div className='product-home-container mx-auto my-8'>
         {/* card image */}
