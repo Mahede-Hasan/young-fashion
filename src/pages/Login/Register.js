@@ -23,7 +23,7 @@ const Register = () => {
     const confirmPasswordRef = useRef('');
     const [passwordError, setPasswordError] = useState('');
     const navigate = useNavigate();
-    const [agree,setAgree] = useState(false)
+    const [agree, setAgree] = useState(false)
 
     let errorElement;
     if (error || updateError) {
@@ -64,19 +64,19 @@ const Register = () => {
         <section className='register-form-container'>
             <div className="register-container lg:w-[600px] sm:w-[80%] mx-auto my-12 pb-10">
 
-                <form onSubmit={handleSubmitRegister} class="mt-6 mb-0 space-y-4 p-8 pl-20">
-                    <p class="text-2xl font-medium">Register</p>
+                <form onSubmit={handleSubmitRegister} className="mt-6 mb-0 space-y-4 p-8 pl-20">
+                    <p className="text-2xl font-medium">Register</p>
 
                     <div className='mx-auto'>
-                        <label for="name" class="text-sm font-medium">Name</label>
+                        <label for="name" className="text-sm font-medium">Name</label>
 
-                        <div class="relative mt-1">
+                        <div className="relative mt-1">
                             <input
                                 ref={nameRef}
                                 name='name'
                                 type="text"
                                 id="name"
-                                class="w-[90%] focus:ring-teal-400 border-gray-200 p-2 pl-8 pr-12 text-md shadow-sm"
+                                className="w-[90%] focus:ring-teal-400 border-gray-200 p-2 pl-8 pr-12 text-md shadow-sm"
                                 placeholder="Enter email"
                                 required
                             />
@@ -84,15 +84,15 @@ const Register = () => {
                     </div>
 
                     <div className='mx-auto'>
-                        <label for="email" class="text-sm font-medium">Email</label>
+                        <label for="email" className="text-sm font-medium">Email</label>
 
-                        <div class="relative mt-1">
+                        <div className="relative mt-1">
                             <input
                                 ref={emailRef}
                                 name='email'
                                 type="email"
                                 id="email"
-                                class="w-[90%] focus:ring-teal-400 border-gray-200 p-2 pl-8 pr-12 text-md shadow-sm"
+                                className="w-[90%] focus:ring-teal-400 border-gray-200 p-2 pl-8 pr-12 text-md shadow-sm"
                                 placeholder="Enter email"
                                 autoComplete='off'
                                 required
@@ -101,15 +101,15 @@ const Register = () => {
                     </div>
 
                     <div>
-                        <label for="password" class="text-sm font-medium">Password</label>
+                        <label for="password" className="text-sm font-medium">Password</label>
 
-                        <div class="relative mt-1">
+                        <div className="relative mt-1">
                             <input
                                 ref={passwordRef}
                                 name='password'
                                 type="password"
                                 id="password"
-                                class="w-[90%] focus:ring-teal-400 border-gray-200 p-2 pl-8 pr-12 text-md shadow-sm"
+                                className="w-[90%] focus:ring-teal-400 border-gray-200 p-2 pl-8 pr-12 text-md shadow-sm"
                                 placeholder="Password"
                                 autoComplete='off'
                                 required
@@ -118,29 +118,29 @@ const Register = () => {
                     </div>
 
                     <div>
-                        <label for="password" class="text-sm font-medium">Confirm Password</label>
+                        <label for="password" className="text-sm font-medium">Confirm Password</label>
 
-                        <div class="relative mt-1">
+                        <div className="relative mt-1">
                             <input
                                 ref={confirmPasswordRef}
                                 name='confirmPassword'
                                 type="password"
                                 id="password"
-                                class="w-[90%] focus:ring-teal-400 border-gray-200 p-2 pl-8 pr-12 text-md shadow-sm"
+                                className="w-[90%] focus:ring-teal-400 border-gray-200 p-2 pl-8 pr-12 text-md shadow-sm"
                                 placeholder="Confirm password"
                                 required
                             />
                         </div>
                     </div>
-                    
+
                     {/* checkbox */}
-                    <div class="flex items-center">
+                    <div className="flex items-center">
                         <input
-                        onClick={()=>setAgree(!agree)} 
-                        id="link-checkbox" 
-                        type="checkbox" 
-                        class="w-4 h-4 text-teal-400 bg-gray-100 rounded border-gray-300 focus:ring-teal-500 dark:focus:ring-teal-400 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                        <label for="link-checkbox" class={`ml-2 text-sm font-medium ${agree ? 'text-gray-600' : 'text-red-600'}`}>I agree with the terms and conditions.</label>
+                            onClick={() => setAgree(!agree)}
+                            id="link-checkbox"
+                            type="checkbox"
+                            className="w-4 h-4 text-teal-400 bg-gray-100 rounded border-gray-300 focus:ring-teal-500 dark:focus:ring-teal-400 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+                        <label for="link-checkbox" className={`ml-2 text-sm font-medium ${agree ? 'text-gray-600' : 'text-red-600'}`}>I agree with the terms and conditions.</label>
                     </div>
 
                     {/* password error */}
@@ -150,7 +150,7 @@ const Register = () => {
                     <button
                         disabled={!agree}
                         type="submit"
-                        class="block w-[90%] bg-teal-400 hover:bg-teal-500 px-5 py-1 text-lg font-medium text-white"
+                        className="block w-[90%] bg-teal-400 hover:bg-teal-500 transition-all duration-400 px-5 py-1 text-lg font-medium text-white"
                     >
                         Register
                     </button>
@@ -158,9 +158,9 @@ const Register = () => {
                     {/* error message */}
                     <p className='text-red-500'>{errorElement}</p>
 
-                    <p class="text-start text-sm text-gray-500">
+                    <p className="text-start text-sm text-gray-500">
                         Already have an account?
-                        <Link to='/login' class="underline" href="">Login</Link>
+                        <Link to='/login' className="underline" href="">Login</Link>
                     </p>
 
                 </form>

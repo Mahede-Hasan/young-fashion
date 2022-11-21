@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import Context from './pages/Shared/Context';
+import CartContext from './pages/Shared/CartContext';
 
 const queryClient = new QueryClient()
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,15 +14,17 @@ root.render(
 
   // usequery 
 
-    <Context>
+  <Context>
+    <CartContext>
       <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
-        <React.StrictMode>
-          <App />
-        </React.StrictMode>
-      </BrowserRouter>
-    </QueryClientProvider>
-    </Context>
+        <BrowserRouter>
+          <React.StrictMode>
+            <App />
+          </React.StrictMode>
+        </BrowserRouter>
+      </QueryClientProvider>
+    </CartContext>
+  </Context>
 
 );
 

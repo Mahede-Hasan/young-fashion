@@ -7,8 +7,7 @@ import { ProductDetailContext } from '../../Shared/Context';
 
 const SearchResult = ({searchResult}) => {
     const {name, price, prePrice, img, _id} = searchResult;
-    const {handleAddToCart} = useContext(ProductDetailContext)
-
+    const {handleAddToCart,handleAddToLove}= useContext(ProductDetailContext)  
     return (
         <div className='product-home-container mx-auto my-8'>
         {/* card image */}
@@ -16,7 +15,7 @@ const SearchResult = ({searchResult}) => {
             <img className='cart-img' src={img} alt="" />
             <div className="cart-icon-container">
                 <button  onClick={()=>handleAddToCart(_id)} title='Add to Cart' className='cart-icon'><FontAwesomeIcon icon={faCartShopping}></FontAwesomeIcon></button>
-                <Link className='cart-icon' ><FontAwesomeIcon icon={faHeart}></FontAwesomeIcon></Link>
+                <Link onClick={()=>handleAddToLove(_id)} className='cart-icon' ><FontAwesomeIcon icon={faHeart}></FontAwesomeIcon></Link>
                 <Link className='cart-icon mt-8 text-[16px] text-white'><FontAwesomeIcon icon={faSearch}></FontAwesomeIcon></Link>
             </div>
         </div>

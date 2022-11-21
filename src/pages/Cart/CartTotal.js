@@ -1,15 +1,19 @@
 import React from 'react';
 import { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { CartOperationContext } from '../Shared/CartContext';
 import { ProductDetailContext } from '../Shared/Context';
 
 const CartTotal = () => {
-    const { cartProduct } = useContext(ProductDetailContext)
     const navigate = useNavigate()
-    console.log(cartProduct)
+    const { cartProduct } = useContext(ProductDetailContext)
+    // const {total,shipping,tax,grandTotal,updateTotal, setUpdateTotal,quantity} = useContext(CartOperationContext)
+
     let total = 0;
+    // let quantity = 0;
     for (const cart of cartProduct) {
-        total = parseInt(cart.price) + total;
+        // quantity = quantity + cart.quantity;
+        total = cart?.price + total ;
     }
 
     let shipping = Math.floor(total / 8);
@@ -19,7 +23,6 @@ const CartTotal = () => {
 
     const tax = parseInt(Math.floor(total / 10).toFixed(2))
     const grandTotal = total + tax + shipping;
-
     const handleCheckOut = () => {
         navigate('/checkout')
     }

@@ -8,7 +8,7 @@ const useProducts =()=>{
     const [page, setPage] = useState(0)
     const [size, setSize] = useState(12)
     const [loading, setLoading] = useState(true);
-    const {products, setProducts} = useContext(ProductDetailContext)
+    const {setProducts} = useContext(ProductDetailContext)
 
     useEffect(() => {
         fetch(`http://localhost:5000/products?page=${page}&size=${size}`)
@@ -16,7 +16,6 @@ const useProducts =()=>{
             .then(data => {
                 setLoading(false)
                 setProducts(data)
-                // console.log(data)
             })
     }, [size, pageCount, page])
 

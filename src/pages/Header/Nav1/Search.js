@@ -1,7 +1,10 @@
 import React from 'react';
+import { useContext } from 'react';
+import { ProductDetailContext } from '../../Shared/Context';
 import SearchResult from './SearchResult';
 
-const Search = ({search}) => {
+const Search = () => {
+    const {search} = useContext(ProductDetailContext)
     return (
         <div className='px-12 pb-40'>
             <h1 className='pl-4 pt-4 text-2xl text-gray-400'>{search.length} product found</h1>

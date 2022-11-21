@@ -1,0 +1,44 @@
+.home-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.home-icon:hover{
+    background-color: rgb(230, 230, 230);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.shopping-icon, .heart-icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.heart-icon:hover ,.shopping-icon:hover{
+    background-color: rgb(230, 230, 230);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-icon-container{
+        display: none;
+    }
+
+    .nav-bottom-container{
+        display: flex !important;
+        justify-content: space-around !important;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        margin: 0 !important;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+}

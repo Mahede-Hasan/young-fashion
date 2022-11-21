@@ -4,30 +4,33 @@ import React from 'react';
 import { useState } from 'react';
 import { useContext } from 'react';
 import { ProductDetailContext } from '../Shared/Context';
+import { CartOperationContext } from '../Shared/CartContext';
 
 const SelectedProduct = ({ singleCart }) => {
-    const {cartProduct, setCartProduct} = useContext(ProductDetailContext)
+    const { cartProduct, setCartProduct } = useContext(ProductDetailContext)
+    // const {total,shipping,tax,grandTotal,updateTotal, setUpdateTotal} = useContext(CartOperationContext)
     const { name, img, price, _id } = singleCart || {};
     const [count, setCount] = useState(1)
+    // const [updatePrice, setUpdatePrice] = useState(price)
 
     // remove cart
-    const handleCartRemove = id =>{
-          const removeCart = cartProduct.filter(cart => cart._id !== id)
-          setCartProduct(removeCart)
-  }
+    const handleCartRemove = id => {
+        const removeCart = cartProduct.filter(cart => cart._id !== id)
+        setCartProduct(removeCart)
+    }
 
-  const handleIncrease=()=>{
-    const newCount = count + 1;
-    setCount(newCount);
-  }
-
-  const handleDecrease=()=>{
-    if(count > 1){
-        const newCount = count - 1;
+    const handleIncrease = () => {
+        const newCount = count + 1;
         setCount(newCount);
     }
 
-  }
+    const handleDecrease = () => {
+        if (count > 1) {
+            const newCount = count - 1;
+            setCount(newCount);
+        }
+
+    }
 
     return (
         <div className='border border-teal-200 h-[100px] hover:border-gray-200 transition-all duration-300 px-4 mx-10 my-10 flex justify-between items-center hover:bg-gray-200'>
@@ -43,7 +46,7 @@ const SelectedProduct = ({ singleCart }) => {
                 <button onClick={handleIncrease} className='bg-gray-300 px-2 pb-1 text-xl font-bold rounded'>+</button>
             </div>
             <h6>${price}</h6>
-            <button onClick={()=>handleCartRemove(_id)}>
+            <button onClick={() => handleCartRemove(_id)}>
                 <FontAwesomeIcon className='text-red-500' icon={faTrash}></FontAwesomeIcon>
             </button>
         </div>

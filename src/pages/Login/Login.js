@@ -16,7 +16,7 @@ const Login = () => {
     const navigate = useNavigate()
     const location = useLocation()
 
-let from = location.state?.from?.pathName || '/'
+    let from = location.state?.from?.pathName || '/'
 
     // error message
     let errorElement;
@@ -31,7 +31,7 @@ let from = location.state?.from?.pathName || '/'
 
     // get user
     if (user) {
-        navigate(from, {replace: true})
+        navigate(from, { replace: true })
     }
 
     // handle login
@@ -49,18 +49,18 @@ let from = location.state?.from?.pathName || '/'
                 {/* login-form */}
                 <form
                     onSubmit={handleSubmitLogin}
-                    class="mt-6 mb-0 space-y-4 p-8 pl-20">
-                    <p class="text-2xl font-medium">Login to your account</p>
+                    className="mt-6 mb-0 space-y-4 p-8 pl-20">
+                    <p className="text-2xl font-medium">Login to your account</p>
 
                     {/* email input */}
                     <div className='mx-auto'>
-                        <label for="email" class="text-sm font-medium">Email</label>
-                        <div class="relative mt-1">
+                        <label for="email" className="text-sm font-medium">Email</label>
+                        <div className="relative mt-1">
                             <input
                                 name='email'
                                 type="email"
                                 id="email"
-                                class="w-[90%] focus:ring-teal-400 border-gray-200 p-2 pl-8 pr-12 text-md shadow-sm"
+                                className="w-[90%] focus:ring-teal-400 border-gray-200 p-2 pl-8 pr-12 text-md shadow-sm"
                                 placeholder="Enter email"
                             />
                         </div>
@@ -68,14 +68,14 @@ let from = location.state?.from?.pathName || '/'
 
                     {/* password input */}
                     <div>
-                        <label for="password" class="text-sm font-medium">Password</label>
+                        <label for="password" className="text-sm font-medium">Password</label>
 
-                        <div class="relative mt-1">
+                        <div className="relative mt-1">
                             <input
                                 name='password'
                                 type="password"
                                 id="password"
-                                class="w-[90%] focus:ring-teal-400 border-gray-200 p-2 pl-8 pr-12 text-md shadow-sm"
+                                className="w-[90%] focus:ring-teal-400 border-gray-200 p-2 pl-8 pr-12 text-md shadow-sm"
                                 placeholder="Enter password"
                             />
                         </div>
@@ -86,18 +86,18 @@ let from = location.state?.from?.pathName || '/'
                     {/* login button */}
                     <button
                         type="submit"
-                        class="block w-[90%] bg-teal-400 hover:bg-teal-500 px-5 py-1 text-lg font-medium text-white"
+                        className="block w-[90%] bg-teal-400 hover:bg-teal-500 transition-all duration-400 px-5 py-1 text-lg font-medium text-white"
                     >
                         Login
                     </button>
 
                     <div className="flex justify-between">
-                        <p class="text-center text-sm text-gray-500">
+                        <p className="text-center text-sm text-gray-500">
                             No account?
-                            <Link to='/register' class="underline font-semibold text-teal-400" href="">Register</Link>
+                            <Link to='/register' className="underline font-semibold pl-1 text-teal-400" href="">Create Account</Link>
                         </p>
-                        <p class="text-center text-sm text-gray-500 pr-12">
-                            Forget Password  <Link class="underline font-semibold text-teal-400" href="">Reset</Link>
+                        <p className="text-center text-sm text-gray-500 pr-12">
+                            Forget Password  <Link className="underline font-semibold text-teal-400" href="">Reset</Link>
                         </p>
                     </div>
 

@@ -16,11 +16,15 @@ import Login from './pages/Login/Login';
 import Register from './pages/Login/Register';
 import { ToastContainer } from 'react-toastify';
 import PrivateAuth from './pages/Shared/PrivateAuth';
+import Dashboard from './pages/Dashboard/Dashboard';
+import ManageProducts from './pages/Dashboard/ManageProducts';
+import ManageReview from './pages/Dashboard/ManageReview';
+import ManageUsers from './pages/Dashboard/ManageUsers';
+import History from './pages/Dashboard/History';
+import AddProducts from './pages/Dashboard/AddProducts';
 
 function App() {
   const [loading, setLoading] = useState(false)
-  const [search, setSearch] = useState([])
-
 
   // loading spinner
   useEffect(() => {
@@ -48,12 +52,12 @@ function App() {
           </div>
           :
           <>
-            <Header setSearch={setSearch} ></Header>
+            <Header></Header>
             <Routes>
               <Route path='/' element={<Home></Home>}></Route>
               <Route path='/home' element={<Home></Home>}></Route>
-              <Route path='/shops' element={<PrivateAuth><Shops></Shops></PrivateAuth>}></Route>
-              <Route path='/search' element={<Search search={search}></Search>}></Route>
+              <Route path='/shops' element={<Shops></Shops>}></Route>
+              <Route path='/search' element={<Search></Search>}></Route>
               <Route path='/cart/:cartId' element={<Cart></Cart>}></Route>
               <Route path='/cart' element={<Cart></Cart>}></Route>
               <Route path='/cartDetail' element={<CartDetail></CartDetail>}></Route>
@@ -62,6 +66,17 @@ function App() {
               <Route path='/lovecart' element={<LoveCart></LoveCart>}></Route>
               <Route path='/login' element={<Login></Login>}></Route>
               <Route path='/register' element={<Register></Register>}></Route>
+              <Route path='dashboard' element={
+              <PrivateAuth>
+                <Dashboard></Dashboard>
+              </PrivateAuth>}
+            >
+              <Route index element={<ManageUsers></ManageUsers>}></Route>
+              <Route path='manageReviews' element={<ManageReview></ManageReview>}></Route>
+              <Route path='manageProducts' element={<ManageProducts></ManageProducts>}></Route>
+              <Route path='addProducts' element={<AddProducts></AddProducts>}></Route>
+              <Route path='history' element={<History></History>}></Route>
+            </Route>
             </Routes>
             <ToastContainer />
             <Footer></Footer>

@@ -1,13 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCartShopping, faHeart, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faCartShopping, faHeart, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 import React, { useState } from 'react';
 import './Nav1.css';
 import { Link, useNavigate } from 'react-router-dom';
 import { useContext } from 'react';
 import { ProductDetailContext } from '../../Shared/Context';
 
-const Nav1 = ({ setSearch }) => {
-    const { cartProduct, loveCart } = useContext(ProductDetailContext)
+const Nav1 = () => {
+    const { cartProduct, loveCart, setSearch } = useContext(ProductDetailContext)
     const [searchText, setSearchText] = useState('')
     const navigate = useNavigate()
 
@@ -26,7 +26,7 @@ const Nav1 = ({ setSearch }) => {
     return (
         <div className='bg-white'>
             {/* nav-1 container  */}
-            <div className="nav1-container flex justify-between items-start px-14 py-3">
+            <div className="nav1-container flex justify-between items-start px-10 py-3">
 
                 {/* website logo */}
                 <div className="logo ">
@@ -57,10 +57,12 @@ const Nav1 = ({ setSearch }) => {
                 {/* nav icon */}
                 <div className='nav-icon-container flex pt-1'>
                     <span className='pr-8 text-xl cursor-pointer text-gray-600'><FontAwesomeIcon icon={faUser}></FontAwesomeIcon></span>
-                    <Link to='/cart' className='pr-8 text-xl  cursor-pointer text-gray-600'><FontAwesomeIcon icon={faCartShopping}></FontAwesomeIcon><span className='text-sm absolute top-2 right-[124px] bg-teal-400 rounded-[50%] px-1.5 text-white font-semibold'>{cartProduct.length} </span></Link>
+                    <Link to='/cart' className='pr-8 text-xl  cursor-pointer text-gray-600'><FontAwesomeIcon icon={faCartShopping}></FontAwesomeIcon><span className='text-sm absolute top-2 right-[110px] bg-teal-400 rounded-[50%]  w-5 pl-1.5 text-white font-semibold'>{cartProduct.length} </span></Link>
 
-                    <Link to='/lovecart' className='pr-8 text-xl cursor-pointer text-gray-600'><FontAwesomeIcon icon={faHeart}></FontAwesomeIcon><span className='text-sm absolute top-2 right-[72px] bg-teal-400 rounded-[50%] px-1.5 text-white font-semibold'>{loveCart.length} </span></Link>
+                    <Link to='/lovecart' className='pr-8 text-xl cursor-pointer text-gray-600'><FontAwesomeIcon icon={faHeart}></FontAwesomeIcon><span className='text-sm absolute top-2 right-[58px] bg-teal-400 rounded-[50%] w-5 pl-1.5 text-white font-semibold'>{loveCart.length} </span></Link>
                 </div>
+
+
             </div>
         </div>
     );
